@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		<title>Formulario</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<center><h1>FORMULARIO</h1></center>
+<form>
+
+	Nombres: <input type="text" placeholder="Nombre" id="Nombre">
+	<p>Apellidos: <input type="text" placeholder="Apellido" id="Apellido"></p>
+	<p>Domicilio: <input type="text" placeholder="Domicilio" id="Domicilio"></p>
+	<p>Provincia: <input type="text" placeholder="Provincia" id="Provincia"></p>
+	<p>E-mail: <input type="text" placeholder="E-mail" id="E-mail"></p>
+	<p>Contraseña: <input type="password" placeholder="Contraseña"></p>
+	<p>Confirmar contraseña: <input type="password" placeholder="Confirmar contraeña"></p>
+
+	<div>
+		<input type="radio" id="Mujer"><label for="Hombre"> Hombre </label>
+		<input type="radio" id="Mujer"><label for="Mujer"> Mujer </label>
+	</div>
+	 <button onclick="addHtmlTableRow();">Ingresar datos</button>
+                <button onclick="removeSelectedRow();">Eliminar</button>
+
+<hr>
+<hr>
+
+<table> 
+	<tbody>
+		<tr>
+			<td>Nombres</td>
+			<th>Apellidos</th>
+			<th>Domicilio</th>
+			<th>Provincia</th>
+			<th>E-mail</th>
+
+		</tr>
+	</tbody>
+</table>
+</form>
+</body>
+</html>
